@@ -79,7 +79,7 @@ void printPrompt();
 void printHelp();
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   for (uint8_t i = 0; i < NUM_RELAYS; i++) {
     pinMode(relayPins[i], OUTPUT);

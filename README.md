@@ -183,10 +183,10 @@ arduino-cli upload -p /dev/ttyACM0 --fqbn arduino:avr:uno numato_relay_emulator
 Using `arduino-cli`'s built-in monitor:
 
 ```bash
-arduino-cli monitor -p /dev/ttyACM0 --config baudrate=9600
+arduino-cli monitor -p /dev/ttyACM0 --config baudrate=115200
 ```
 
-Or with any terminal tool, 9600 8N1, line ending set to CR or CRLF. Try:
+Or with any terminal tool, 115200 8N1, line ending set to CR or CRLF. Try:
 
 ```
 relay on 0
