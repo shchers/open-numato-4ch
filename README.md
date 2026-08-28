@@ -27,6 +27,8 @@ over a COM/tty port will work against this firmware without modification.
                                   └────────────────────────────────┘
 ```
 
+![Relay Hat](https://files.seeedstudio.com/wiki/Relay_Shield_v3.0/img/Relay_Shield_v3.0.png)
+
 **Software layers inside the sketch:**
 
 1. **Transport layer (`loop()`)** — reads raw bytes from `Serial`, echoes
