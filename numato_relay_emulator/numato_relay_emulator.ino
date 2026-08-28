@@ -22,10 +22,10 @@
  *   - Seeed Studio Relay Shield v3.0
  *
  * Relay Shield v3.0 wiring (fixed by the shield, not configurable):
- *   RELAY1 -> D4
- *   RELAY2 -> D5
- *   RELAY3 -> D6
- *   RELAY4 -> D7
+ *   RELAY1 -> D7
+ *   RELAY2 -> D6
+ *   RELAY3 -> D5
+ *   RELAY4 -> D4
  *   Relays are ACTIVE HIGH: pin HIGH  -> COM connected to NO (energized)
  *                           pin LOW   -> COM connected to NC (de-energized)
  *   Each relay has its own onboard LED tied to its coil, so no extra
@@ -62,7 +62,7 @@
 #include <ctype.h>
 
 const uint8_t NUM_RELAYS = 4;
-const uint8_t relayPins[NUM_RELAYS] = {4, 5, 6, 7};
+const uint8_t relayPins[NUM_RELAYS] = {7, 6, 5, 4};
 
 const int EEPROM_ID_ADDR = 0;
 const int EEPROM_ID_LEN  = 8;
